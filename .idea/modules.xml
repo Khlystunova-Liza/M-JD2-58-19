@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/M-JD2-58-19.iml" filepath="$PROJECT_DIR$/.idea/M-JD2-58-19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson6/hellotomcat/hellotomcat.iml" filepath="$PROJECT_DIR$/lesson6/hellotomcat/hellotomcat.iml" />
+    </modules>
+  </component>
+</project>
