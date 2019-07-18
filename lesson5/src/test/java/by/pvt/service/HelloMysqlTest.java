@@ -1,11 +1,11 @@
-package by.pvt;
+package by.pvt.service;
 
-import java.sql.*;
 import org.dbunit.DBTestCase;
 import org.dbunit.PropertiesBasedJdbcDatabaseTester;
 import org.dbunit.dataset.IDataSet;
 import org.dbunit.dataset.xml.FlatXmlDataSetBuilder;
 import org.junit.Test;
+import java.sql.*;
 
 public class HelloMysqlTest extends DBTestCase {
 
@@ -19,7 +19,8 @@ public class HelloMysqlTest extends DBTestCase {
 
     @Override
     protected IDataSet getDataSet() throws Exception {
-        return new FlatXmlDataSetBuilder().build(HelloMysqlTest.class.getResourceAsStream("system_users.xml"));
+        return new FlatXmlDataSetBuilder()
+                .build(HelloMysqlTest.class.getResourceAsStream("system_users.xml"));
     }
 
     //проверяет есть ли данные в таблице

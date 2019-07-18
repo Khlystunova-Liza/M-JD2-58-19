@@ -23,17 +23,22 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="ad8b095c-e151-437e-b1ff-11b045e599b7">
+        <schema name="hello_mysql" object-types="column, function, view, procedure, index, table, constraint, dataset trigger" />
+        <schema name="mysql" object-types="function, view, procedure, table" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="ad8b095c-e151-437e-b1ff-11b045e599b7">
-      <console name="Connection" type="STANDARD" schema="hello_mysql" session="Main"><![CDATA[select
+      <console name="Connection" type="STANDARD" schema="hello_mysql" session="Main">select
     su.active,
     su.`dateOfBirth`,
     su.id,
     su.username
 from
-    system_users su;]]></console>
+    system_users su;</console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -41,6 +46,13 @@ from
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="ad8b095c-e151-437e-b1ff-11b045e599b7" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="ad8b095c-e151-437e-b1ff-11b045e599b7" dataset="hello_mysql.system_users" active-filter-id="9dbd0d7c-9aef-420b-bae2-de95f56f0611">
+      <filter id="9dbd0d7c-9aef-420b-bae2-de95f56f0611" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
