@@ -9,6 +9,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -18,7 +19,7 @@ class SystemUsersService {
 
     private SqlSessionFactory sqlSessionFactory;
 
-    SystemUsersService() {
+    public SystemUsersService() {
         try {
             sqlSessionFactory = new SqlSessionFactoryBuilder().build(
                     Resources.getResourceAsStream("by/pvt/service/mybatis-config.xml")
@@ -28,7 +29,11 @@ class SystemUsersService {
         }
     }
 
-    List<SystemUsers> getSystemUsers(){
+    protected void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory) {
+        this.sqlSessionFactory = sqlSessionFactory;
+    }
+
+    public List<SystemUsers> getSystemUsers(){
         SqlSession sqlSession = sqlSessionFactory.openSession();
         List<SystemUsers> systemUsers = sqlSession.getMapper(SystemUsersMapper.class)
                 .selectByExample(null);
@@ -37,7 +42,7 @@ class SystemUsersService {
         return systemUsers;
     }
 
-    void insert(SystemUsers systemUser){
+    public void insert(SystemUsers systemUser){
        SqlSession sqlSession = sqlSessionFactory.openSession();
        int insert = sqlSession.getMapper(SystemUsersMapper.class).insert(systemUser);
        sqlSession.commit();
@@ -45,7 +50,32 @@ class SystemUsersService {
        log.info("Added  new systemUser. Result = " + insert);
    }
 
-   void delete(int id){
+   public void insert(List<SystemUsers> systemUsers){
+        if(systemUsers==null){
+            log.info("The input systemUsers is null");
+            return;
+        }
+       SqlSession sqlSession = sqlSessionFactory.openSession();
+        if(sqlSession==null){
+            log.info("Session is null");
+            return;
+        }
+       SystemUsersMapper dao = sqlSession.getMapper(SystemUsersMapper.class);
+       try {
+           systemUsers.stream()
+                   .filter(Objects::nonNull)
+                   .forEach(dao::insert);
+       } catch (Exception e) {
+           log.log(Level.WARNING,e.getMessage(),e);
+           sqlSession.rollback();
+       }finally {
+           sqlSession.close();
+       }
+       sqlSession.commit();
+       sqlSession.close();
+   }
+
+   public void delete(int id){
        SqlSession sqlSession = sqlSessionFactory.openSession();
        int result = sqlSession.getMapper(SystemUsersMapper.class).deleteByPrimaryKey(id);
        log.info("Deleted systemUser with id " + id + " return:" + result);
@@ -53,7 +83,7 @@ class SystemUsersService {
        sqlSession.close();
    }
 
-   void update(SystemUsers systemUsers){
+   public void update(SystemUsers systemUsers){
        SqlSession sqlSession = sqlSessionFactory.openSession();
        int i = sqlSession.getMapper(SystemUsersMapper.class).updateByPrimaryKey(systemUsers);
        log.info("Update systemUser. Result: " + i);

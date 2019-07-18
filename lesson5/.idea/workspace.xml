@@ -2,56 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5776fea-e99b-4d49-8746-022d4faae22e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/org/junit/annotations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/ClientsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/OrdersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/ProductsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/SystemUsersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Clients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/ClientsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/OrdersExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/ProductsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/SystemUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/SystemUsersExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/by/pvt/service/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_03.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__org_apache_ibatis_ibatis_core_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__org_apache_poi_poi_3_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__org_dbunit_dbunit_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson6/hellotomcat/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson4/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/by/pvt/config/ClientsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/by/pvt/config/OrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/by/pvt/config/ProductsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/by/pvt/config/SystemUsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceDepricatedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/by/pvt/service/mybatis-config-junit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/changeLog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/changeLog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/HelloMysqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/service/HelloMysqlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/by/pvt/system_users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/by/pvt/system_users.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson6/hellotomcat/hellotomcat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson6/hellotomcat/hellotomcat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson6/hellotomcat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson6/hellotomcat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dao/ClientsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/ClientsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dao/OrdersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/OrdersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dao/ProductsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/ProductsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dao/SystemUsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/SystemUsersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Clients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Clients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/ClientsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/ClientsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/OrdersExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/OrdersExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/ProductsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/ProductsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/SystemUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/SystemUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/SystemUsersExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/SystemUsersExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/by/pvt/service/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/pvt/service/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/service/HelloMysqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/service/HelloMysqlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/by/pvt/system_users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/by/pvt/service/system_users.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,20 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            <state relative-caret-position="-588">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,11 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="42">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/by/pvt/service/mybatis-config-junit.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -96,17 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/HelloMysqlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="220">
+              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,15 +102,18 @@
         <option value="$PROJECT_DIR$/src/test/java/by/pvt/HelloMysqlTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/pvt/dto/SystemUsers.java" />
         <option value="$PROJECT_DIR$/src/main/resources/changeLog.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/by/pvt/service/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/test/java/by/pvt/test/HelloMysqlTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/by/pvt/system_users.xml" />
         <option value="$PROJECT_DIR$/src/test/java/by/pvt/test/SystemUsersServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/by/pvt/system_users.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTestTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/pvt/service/HelloMysqlTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/by/pvt/service/mybatis-config-junit.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/by/pvt/service/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceDepricatedTest.java" />
       </list>
     </option>
   </component>
@@ -231,7 +201,34 @@
               <item name="lesson5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellomysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellomysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellomysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hellomysql" type="b2602c69:ProjectViewProjectNode" />
@@ -297,6 +294,51 @@
               <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="pvt" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hellomysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellomysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellomysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellomysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellomysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellomysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -306,7 +348,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563456802975" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563468877893" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/dbunit/dbunit/2.6.0" />
@@ -317,15 +359,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="by.pvt.test" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.pvt.service" />
       <recent name="by.pvt.test" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.pvt.test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\M-JD2-58-19\lesson5\src\test\resources\by\pvt\service" />
       <recent name="C:\M-JD2-58-19\lesson5\src\test\java\by\pvt\service" />
       <recent name="C:\M-JD2-58-19\lesson5\src\test\java\by\pvt" />
     </key>
@@ -342,8 +386,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SystemUsersServiceTest (1)">
-    <configuration name="HelloMysqlTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SystemUsersServiceTest.testGetSystemUsers">
+    <configuration name="HelloMysqlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson5" />
       <extension name="coverage">
         <pattern>
@@ -357,21 +401,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloMysqlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.pvt.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="by.pvt.test" />
-      <option name="MAIN_CLASS_NAME" value="by.pvt.test.HelloMysqlTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SystemUsersServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SystemUsersServiceDepricatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson5" />
       <extension name="coverage">
         <pattern>
@@ -380,7 +410,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="by.pvt.service" />
-      <option name="MAIN_CLASS_NAME" value="by.pvt.service.SystemUsersServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.service.SystemUsersServiceDepricatedTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -389,17 +419,17 @@
       <module name="lesson5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.pvt.test.*" />
+          <option name="PATTERN" value="by.pvt.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by.pvt.test" />
-      <option name="MAIN_CLASS_NAME" value="by.pvt.test.SystemUsersServiceTest" />
+      <option name="PACKAGE_NAME" value="by.pvt.service" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.service.SystemUsersServiceTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemUsersServiceTest.getSystemUsersTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SystemUsersServiceTest.getSystemUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson5" />
       <extension name="coverage">
         <pattern>
@@ -409,7 +439,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="by.pvt.service" />
       <option name="MAIN_CLASS_NAME" value="by.pvt.service.SystemUsersServiceTest" />
-      <option name="METHOD_NAME" value="getSystemUsersTest" />
+      <option name="METHOD_NAME" value="getSystemUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemUsersServiceTest.testGetSystemUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.pvt.service" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.service.SystemUsersServiceTest" />
+      <option name="METHOD_NAME" value="testGetSystemUsers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -417,11 +463,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SystemUsersServiceTest (1)" />
+        <item itemvalue="JUnit.SystemUsersServiceTest.testGetSystemUsers" />
         <item itemvalue="JUnit.HelloMysqlTest (1)" />
-        <item itemvalue="JUnit.SystemUsersServiceTest.getSystemUsersTest (1)" />
         <item itemvalue="JUnit.SystemUsersServiceTest" />
-        <item itemvalue="JUnit.HelloMysqlTest" />
+        <item itemvalue="JUnit.SystemUsersServiceDepricatedTest" />
+        <item itemvalue="JUnit.SystemUsersServiceTest.getSystemUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -436,45 +482,53 @@
       <option name="presentableId" value="Default" />
       <updated>1561998181600</updated>
     </task>
+    <task id="LOCAL-00001" summary="generated dao,dto,crud,test for system_users">
+      <created>1563457005493</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563457005493</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SystemUsersServiceTest - 2019.07.18 at 13h 28m 02s.xml">
-      <configuration name="SystemUsersServiceTest" configurationId="JUnit" />
+    <history-entry file="SystemUsersServiceTest_testGetSystemUsers - 2019.07.18 at 19h 33m 08s.xml">
+      <configuration name="SystemUsersServiceTest.testGetSystemUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SystemUsersServiceTest - 2019.07.18 at 15h 04m 51s.xml">
-      <configuration name="SystemUsersServiceTest" configurationId="JUnit" />
+    <history-entry file="SystemUsersServiceDepricatedTest - 2019.07.18 at 19h 34m 02s.xml">
+      <configuration name="SystemUsersServiceDepricatedTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloMysqlTest - 2019.07.18 at 15h 06m 06s.xml">
+    <history-entry file="SystemUsersServiceTest_testGetSystemUsers - 2019.07.18 at 19h 38m 11s.xml">
+      <configuration name="SystemUsersServiceTest.testGetSystemUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SystemUsersServiceTest_testGetSystemUsers - 2019.07.18 at 19h 39m 03s.xml">
+      <configuration name="SystemUsersServiceTest.testGetSystemUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloMysqlTest - 2019.07.18 at 19h 43m 21s.xml">
       <configuration name="HelloMysqlTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SystemUsersServiceTest - 2019.07.18 at 15h 13m 13s.xml">
+    <history-entry file="SystemUsersServiceTest_testGetSystemUsers - 2019.07.18 at 19h 43m 48s.xml">
+      <configuration name="SystemUsersServiceTest.testGetSystemUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SystemUsersServiceTest - 2019.07.18 at 19h 45m 20s.xml">
       <configuration name="SystemUsersServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SystemUsersServiceTest_(1) - 2019.07.18 at 15h 15m 46s.xml">
-      <configuration name="SystemUsersServiceTest (1)" configurationId="JUnit" />
+    <history-entry file="HelloMysqlTest - 2019.07.18 at 19h 47m 29s.xml">
+      <configuration name="HelloMysqlTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SystemUsersServiceTest_getSystemUsersTest_(1) - 2019.07.18 at 15h 22m 33s.xml">
-      <configuration name="SystemUsersServiceTest.getSystemUsersTest (1)" configurationId="JUnit" />
+    <history-entry file="SystemUsersServiceTest_testGetSystemUsers - 2019.07.18 at 19h 47m 53s.xml">
+      <configuration name="SystemUsersServiceTest.testGetSystemUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SystemUsersServiceTest_getSystemUsersTest_(1) - 2019.07.18 at 15h 23m 44s.xml">
-      <configuration name="SystemUsersServiceTest.getSystemUsersTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloMysqlTest_(1) - 2019.07.18 at 15h 34m 24s.xml">
-      <configuration name="HelloMysqlTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SystemUsersServiceTest_(1) - 2019.07.18 at 15h 34m 42s.xml">
-      <configuration name="SystemUsersServiceTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SystemUsersServiceTest_(1) - 2019.07.18 at 16h 27m 47s.xml">
-      <configuration name="SystemUsersServiceTest (1)" configurationId="JUnit" />
+    <history-entry file="SystemUsersServiceTest_testGetSystemUsers - 2019.07.18 at 19h 49m 46s.xml">
+      <configuration name="SystemUsersServiceTest.testGetSystemUsers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2582996" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26072875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -484,7 +538,7 @@
       <window_info id="DB Browser" order="7" weight="0.2194332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.79040855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7122558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -504,6 +558,10 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven" order="7" weight="0.25020242" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="generated dao,dto,crud,test for system_users" />
+    <option name="LAST_COMMIT_MESSAGE" value="generated dao,dto,crud,test for system_users" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -533,13 +591,6 @@
         <state relative-caret-position="-630" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/by/pvt/service/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="db://ad8b095c-e151-437e-b1ff-11b045e599b7/objects/schemas/hello_mysql/tables/system_users">
       <provider selected="true" editor-type-id="1.DATA">
         <state row-count="0" readonly="false">
@@ -556,16 +607,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/HelloMysqlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/HelloMysqlTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/dao/SystemUsersMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -594,23 +636,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/test/HelloMysqlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/test/SystemUsersServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/test/HelloMysqlTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/test/SystemUsersServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/changeLog.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
@@ -630,10 +657,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/by/pvt/system_users.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="147">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/by/pvt/service/system_users.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson5.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -641,44 +671,75 @@
     <entry file="file://$PROJECT_DIR$/hello-mysql.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/HelloMysqlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="147">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by/pvt/service/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/by/pvt/service/mybatis-config-junit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/HelloMysqlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceDepricatedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <marker date="1563468732647" expanded="true" signature="969:1222" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-588">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

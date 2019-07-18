@@ -25,8 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="ad8b095c-e151-437e-b1ff-11b045e599b7">
-        <schema name="hello_mysql" object-types="column, function, view, procedure, index, table, constraint, dataset trigger" />
-        <schema name="mysql" object-types="function, view, procedure, table" />
+        <schema name="hello_mysql" object-types="table, view" />
       </connection>
     </loaded-nodes>
   </component>
