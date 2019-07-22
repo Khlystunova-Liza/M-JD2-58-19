@@ -7,18 +7,18 @@ import org.dbunit.DBTestCase;
 import org.dbunit.PropertiesBasedJdbcDatabaseTester;
 import org.dbunit.dataset.IDataSet;
 import org.dbunit.dataset.xml.FlatXmlDataSetBuilder;
-import org.junit.After;
-import org.junit.Before;
+
 import org.junit.Test;
 
 import java.io.IOException;
-import java.util.List;
 
-import static org.junit.Assert.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class SystemUsersServiceTest extends DBTestCase {
 
     SystemUsersService objectUnderTest;
+    SystemUsers systemUser;
 
     public SystemUsersServiceTest() {
         System.setProperty( PropertiesBasedJdbcDatabaseTester.DBUNIT_DRIVER_CLASS
@@ -55,18 +55,93 @@ public class SystemUsersServiceTest extends DBTestCase {
     }
 
     @Test
-    public void insert() {
+    public void testInsert() {
+
+        objectUnderTest = new SystemUsersService();
+        try {
+            objectUnderTest.setSqlSessionFactory(new SqlSessionFactoryBuilder().build(
+                    Resources.getResourceAsStream("by/pvt/service/mybatis-config-junit.xml")
+            ));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        systemUser = new SystemUsers();
+        systemUser.setUsername("GuestTest");
+        systemUser.setActive(true);
+        systemUser.setId(6);
+
+
+        objectUnderTest.insert(systemUser);
+        assertEquals(5,objectUnderTest.getSystemUsers().size());
+
     }
 
     @Test
-    public void insertList() {
+    public void testInsertList() {
+
+        objectUnderTest = new SystemUsersService();
+        try {
+            objectUnderTest.setSqlSessionFactory(new SqlSessionFactoryBuilder().build(
+                    Resources.getResourceAsStream("by/pvt/service/mybatis-config-junit.xml")
+            ));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        SystemUsers systemUser2 = new SystemUsers();
+        systemUser2.setId(7);
+        systemUser2.setActive(false);
+        systemUser2.setUsername("Guest7");
+
+        systemUser = new SystemUsers();
+        systemUser.setUsername("Guest8");
+        systemUser.setActive(true);
+        systemUser.setId(8);
+
+        List<SystemUsers> systemUsersList = new ArrayList<SystemUsers>();
+        systemUsersList.add(systemUser);
+        systemUsersList.add(systemUser2);
+
+        objectUnderTest.insert(systemUsersList);
+        assertEquals(6,objectUnderTest.getSystemUsers().size());
     }
 
     @Test
-    public void delete() {
+    public void testDelete() {
+        objectUnderTest = new SystemUsersService();
+        try {
+            objectUnderTest.setSqlSessionFactory(new SqlSessionFactoryBuilder().build(
+                    Resources.getResourceAsStream("by/pvt/service/mybatis-config-junit.xml")
+            ));
+
+            objectUnderTest.delete(2);
+            assertEquals(3,objectUnderTest.getSystemUsers().size());
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Test
-    public void update() {
+    public void testUpdate() {
+        objectUnderTest = new SystemUsersService();
+        try {
+            objectUnderTest.setSqlSessionFactory(new SqlSessionFactoryBuilder().build(
+                    Resources.getResourceAsStream("by/pvt/service/mybatis-config-junit.xml")
+            ));
+
+            systemUser = new SystemUsers();
+            systemUser.setUsername("user6");
+            systemUser.setId(7);
+            systemUser.setActive(true);
+            objectUnderTest.insert(systemUser);
+            assertEquals("user6",systemUser.getUsername());
+
+            systemUser.setUsername("UserUpdate");
+            objectUnderTest.update(systemUser);
+            assertEquals("UserUpdate",systemUser.getUsername());
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

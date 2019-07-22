@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5776fea-e99b-4d49-8746-022d4faae22e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/by/pvt/config/ClientsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/by/pvt/config/OrdersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/by/pvt/config/ProductsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/by/pvt/config/SystemUsersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceDepricatedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/by/pvt/service/mybatis-config-junit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dao/ClientsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/ClientsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dao/OrdersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/OrdersMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dao/ProductsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/ProductsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dao/SystemUsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dao/SystemUsersMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Clients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Clients.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/ClientsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/ClientsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/OrdersExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/OrdersExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/ProductsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/ProductsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/SystemUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/SystemUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/dto/SystemUsersExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/dto/SystemUsersExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/by/pvt/service/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/pvt/service/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/service/HelloMysqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/service/HelloMysqlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/by/pvt/system_users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/by/pvt/service/system_users.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,10 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-588">
+            <state relative-caret-position="231">
               <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,9 +27,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceDepricatedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <marker date="1563468732647" expanded="true" signature="969:1222" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
+            <state relative-caret-position="147">
               <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
@@ -348,10 +335,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563468877893" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563470015189" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/dbunit/dbunit/2.6.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39289677" />
@@ -489,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563457005493</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create SystemUserServiceTest">
+      <created>1563469651909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563469651910</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -526,9 +520,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26072875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34817815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -561,7 +554,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="generated dao,dto,crud,test for system_users" />
-    <option name="LAST_COMMIT_MESSAGE" value="generated dao,dto,crud,test for system_users" />
+    <MESSAGE value="create SystemUserServiceTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="create SystemUserServiceTest" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -716,10 +710,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="231">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -733,13 +730,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/service/SystemUsersService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/service/SystemUsersServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

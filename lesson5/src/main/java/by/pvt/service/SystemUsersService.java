@@ -69,10 +69,9 @@ class SystemUsersService {
            log.log(Level.WARNING,e.getMessage(),e);
            sqlSession.rollback();
        }finally {
+           sqlSession.commit();
            sqlSession.close();
        }
-       sqlSession.commit();
-       sqlSession.close();
    }
 
    public void delete(int id){

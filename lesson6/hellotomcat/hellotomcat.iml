@@ -28,5 +28,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.github.virtuald:curvesapi:1.03" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ibatis:ibatis-core:3.0" level="project" />
+    <orderEntry type="module" module-name="hello-mysql" />
   </component>
 </module>
