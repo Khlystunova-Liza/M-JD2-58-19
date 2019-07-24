@@ -2,18 +2,17 @@ package by.pvt.service;
 
 import by.pvt.dao.SystemUsersMapper;
 import by.pvt.dto.SystemUsers;
-import org.apache.ibatis.io.Resources;
+import by.pvt.dto.SystemUsersExample;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-class SystemUsersService {
+public class SystemUsersService {
 
     private static Logger log = Logger.getLogger(SystemUsersService.class.getName());
 
@@ -22,9 +21,10 @@ class SystemUsersService {
     public SystemUsersService() {
         try {
             sqlSessionFactory = new SqlSessionFactoryBuilder().build(
-                    Resources.getResourceAsStream("by/pvt/service/mybatis-config.xml")
+                  //  Resources.getResourceAsStream("by/pvt/service/mybatis-config.xml")
+                    SystemUsersService.class.getResourceAsStream("mybatis-config.xml")
             );
-        } catch (IOException e) {
+        } catch (Exception e) {
            log.log(Level.SEVERE,e.getMessage(),e);
         }
     }
