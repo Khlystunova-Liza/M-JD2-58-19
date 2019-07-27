@@ -6,15 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hello-hibernate" />
-        <module name="hello-mysql" />
-        <module name="hellotomcat" />
+        <module name="hellohibernate" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hello-hibernate" target="11" />
-      <module name="hello-mysql" target="11" />
-      <module name="hellotomcat" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
