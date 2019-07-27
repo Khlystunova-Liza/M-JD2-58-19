@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4a096b6-937a-4a96-88e4-5b6e118baaa1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/pvt/pojo/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_ibatis_ibatis_core_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/hello-mysql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/hello-mysql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dao/ClientsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dao/ClientsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dao/OrdersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dao/OrdersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dao/ProductsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dao/ProductsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dao/SystemUsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dao/SystemUsersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/Clients.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/Clients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/ClientsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/ClientsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/OrdersExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/OrdersExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/ProductsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/ProductsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/SystemUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/SystemUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/SystemUsersExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/java/by/pvt/dto/SystemUsersExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/resources/by/pvt/config/ClientsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/resources/by/pvt/config/ClientsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/resources/by/pvt/config/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/resources/by/pvt/config/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/resources/by/pvt/config/ProductsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/resources/by/pvt/config/ProductsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson5/src/main/resources/by/pvt/config/SystemUsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson5/src/main/resources/by/pvt/config/SystemUsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson6/hellotomcat/hellotomcat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson6/hellotomcat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson6/hellotomcat/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/PersonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/PersonTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hello-hibernate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hello-hibernate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hello-hibernate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="1938" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hellohibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellohibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellohibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellohibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellohibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellohibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellohibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellohibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellohibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellohibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellohibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellohibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellohibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellohibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellohibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellohibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellohibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellohibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellohibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellohibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellohibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellohibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellohibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellohibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="pvt" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564078945533" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="C:/codewars" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="by.pvt.pojo" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonTest.testPerson">
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.pvt.pojo.Person" />
+      <module name="hellohibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.testPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hellohibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.pvt.pojo" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.pojo.PersonTest" />
+      <option name="METHOD_NAME" value="testPerson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonTest.testPerson" />
+        <item itemvalue="Application.Person" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4a096b6-937a-4a96-88e4-5b6e118baaa1" name="Default Changelist" comment="" />
+      <created>1564070810976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564070810976</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PersonTest_testPerson - 2019.07.25 at 21h 17m 55s.xml">
+      <configuration name="PersonTest.testPerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest_testPerson - 2019.07.25 at 21h 20m 31s.xml">
+      <configuration name="PersonTest.testPerson" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="DB Browser" order="3" weight="0.32955465" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.2534413" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.08703375" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Regex Tester" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.22348177" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/pvt/pojo/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8.0_45</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
