@@ -6,6 +6,7 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 //раздает сессии хибернейта
+//класс кторый подгружает все конфиги в программу
 public class HibernateUtil {
 
     private static volatile HibernateUtil hibernateUtil;
@@ -25,7 +26,7 @@ public class HibernateUtil {
     private HibernateUtil() {
         sessionFactory =
                 new MetadataSources(
-                        new StandardServiceRegistryBuilder()
+                         new StandardServiceRegistryBuilder()
                                 .configure()
                                 .build()).buildMetadata().buildSessionFactory();
     }
