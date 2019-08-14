@@ -5,8 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.io.Serializable;
 
-@Entity(name ="Order")
-public class Order implements Serializable {
+@Entity(name ="Request")
+public class Request implements Serializable {
 
     private static final long serialVersionUID = 4934025357325982076L;
 
@@ -21,62 +21,62 @@ public class Order implements Serializable {
     @Column
     private String nameOfCoffeeMachine;
 
-    public Order() {
+    public Request() {
     }
 
     public int getId() {
         return id;
     }
-
-    public int getPersonId() {
-        return personId;
-    }
-
-    public String getContact() {
-        return contact;
-    }
-
-    public String getDeliveryAddress() {
-        return deliveryAddress;
-    }
-
-    public String getNameOfCoffeeMachine() {
-        return nameOfCoffeeMachine;
-    }
-
     public void setId(int id) {
         this.id = id;
     }
 
+
+    public int getPersonId() {
+        return personId;
+    }
     public void setPersonId(int personId) {
         this.personId = personId;
     }
 
+
+    public String getContact() {
+        return contact;
+    }
     public void setContact(String contact) {
         this.contact = contact;
     }
 
+
+    public String getDeliveryAddress() {
+        return deliveryAddress;
+    }
     public void setDeliveryAddress(String deliveryAddress) {
         this.deliveryAddress = deliveryAddress;
     }
 
+
+    public String getNameOfCoffeeMachine() {
+        return nameOfCoffeeMachine;
+    }
     public void setNameOfCoffeeMachine(String nameOfCoffeeMachine) {
         this.nameOfCoffeeMachine = nameOfCoffeeMachine;
     }
+
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Order order = (Order) o;
+        Request request = (Request) o;
 
-        if (id != order.id) return false;
-        if (personId != order.personId) return false;
-        if (contact != null ? !contact.equals(order.contact) : order.contact != null) return false;
-        if (deliveryAddress != null ? !deliveryAddress.equals(order.deliveryAddress) : order.deliveryAddress != null)
+        if (id != request.id) return false;
+        if (personId != request.personId) return false;
+        if (contact != null ? !contact.equals(request.contact) : request.contact != null) return false;
+        if (deliveryAddress != null ? !deliveryAddress.equals(request.deliveryAddress) : request.deliveryAddress != null)
             return false;
-        return nameOfCoffeeMachine != null ? nameOfCoffeeMachine.equals(order.nameOfCoffeeMachine) : order.nameOfCoffeeMachine == null;
+        return nameOfCoffeeMachine != null ? nameOfCoffeeMachine.equals(request.nameOfCoffeeMachine) : request.nameOfCoffeeMachine == null;
     }
 
     @Override

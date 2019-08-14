@@ -11,6 +11,6 @@
         <property name="hibernate.hbm2ddl.auto">create</property>
         <property name="show_sql">true</property>
         <mapping class="by.pvt.pojo.Person"/>
-        <mapping class="by.pvt.pojo.Order"/>
+        <mapping class="by.pvt.pojo.Request"/>
     </session-factory>
 </hibernate-configuration>
