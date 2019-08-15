@@ -6,7 +6,7 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 //раздает сессии хибернейта
-//класс кторый подгружает все конфиги в программу
+//класс который подгружает все конфиги в программу
 public class HibernateUtil {
 
     private static volatile HibernateUtil hibernateUtil;

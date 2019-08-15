@@ -12,5 +12,7 @@
         <property name="show_sql">true</property>
         <mapping class="by.pvt.pojo.Person"/>
         <mapping class="by.pvt.pojo.Request"/>
+        <mapping class="by.pvt.pojo.Employee"/>
+        <mapping class="by.pvt.pojo.EmployeeDetails"/>
     </session-factory>
 </hibernate-configuration>
