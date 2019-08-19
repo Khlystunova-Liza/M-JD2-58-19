@@ -5,13 +5,16 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.junit.Test;
 
+import java.util.Date;
+
 import static org.junit.Assert.*;
 
 public class EmployeeTest {
 
-    static Employee createTestData(int index){
+    static Employee createEmployee(int index){
         Employee employee = new Employee();
         employee.setName("Name" +index);
+        employee.setDateOfBirth(new Date());
         employee.setTitle("Employee");
         employee.setEmpNumber(index);
         return employee;
@@ -25,9 +28,9 @@ public class EmployeeTest {
 
         try{
             tx = session.beginTransaction();
-            session.saveOrUpdate(createTestData(1));
-            session.saveOrUpdate(createTestData(2));
-            session.saveOrUpdate(createTestData(3));
+            session.saveOrUpdate(createEmployee(3));
+            session.saveOrUpdate(createEmployee(4));
+            session.saveOrUpdate(createEmployee(5));
             tx.commit();
 
         }catch (Exception e){

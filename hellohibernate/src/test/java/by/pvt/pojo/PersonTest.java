@@ -37,7 +37,7 @@ public class PersonTest {
             tx = session.beginTransaction();
             Person getPerson = session.get(Person.class, 1);
 
-            assertEquals(getPerson.getId(),1);
+            assertEquals(person,getPerson);
             tx.commit();
             session.close();
 

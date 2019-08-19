@@ -27,14 +27,18 @@ public class EmployeeDetailsTest {
 
         try{
             tx = session.beginTransaction();
-            Employee employee = EmployeeTest.createTestData(1);
+            Employee employee = EmployeeTest.createEmployee(1);
+            Employee employee1 = EmployeeTest.createEmployee(222);
             session.save(employee);
+            session.save(employee1);
             EmployeeDetails employeeDetails = createEmployeeDetails(1);
+            EmployeeDetails employeeDetails1 = createEmployeeDetails(222);
             employeeDetails.setEmployee(employee);
+            employeeDetails1.setEmployee(employee1);
             session.saveOrUpdate(employeeDetails);
-            //session.saveOrUpdate(createEmployeeDetails(2));
-           // session.saveOrUpdate(createEmployeeDetails(3));
+            session.saveOrUpdate(employeeDetails1);
             tx.commit();
+
 
         }catch (Exception e){
             if(tx != null)tx.rollback();

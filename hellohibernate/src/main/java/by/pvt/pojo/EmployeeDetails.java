@@ -54,6 +54,6 @@ public class EmployeeDetails {
     }
 
     public void setEmployee(Employee employee) {
-        this.employee = employee;
+       this.employee = employee;
     }
 }

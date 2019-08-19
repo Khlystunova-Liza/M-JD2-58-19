@@ -9,19 +9,32 @@ import java.util.Date;
 public class Employee {
 
     @Id
-    @GeneratedValue(generator = "empl_seq",strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(generator = "empl_seq", strategy = GenerationType.SEQUENCE)
     private Long id;
 
+    @Column
     private String name;
 
+    @Column
     private String title;
 
+    @Column
     private Date dateOfBirth;
 
+    @Column
     private int empNumber;
 
     @OneToOne(mappedBy = "employee")
     private EmployeeDetails employeeDetails;
+
+    public EmployeeDetails getEmployeeDetails() {
+        return employeeDetails;
+    }
+
+    public void setEmployeeDetails(EmployeeDetails employeeDetails) {
+        this.employeeDetails = employeeDetails;
+    }
+
 
     public String getName() {
         return name;
@@ -66,7 +79,9 @@ public class Employee {
         if (!id.equals(employee.id)) return false;
         if (name != null ? !name.equals(employee.name) : employee.name != null) return false;
         if (title != null ? !title.equals(employee.title) : employee.title != null) return false;
-        return dateOfBirth != null ? dateOfBirth.equals(employee.dateOfBirth) : employee.dateOfBirth == null;
+        if (dateOfBirth != null ? !dateOfBirth.equals(employee.dateOfBirth) : employee.dateOfBirth != null)
+            return false;
+        return employeeDetails != null ? employeeDetails.equals(employee.employeeDetails) : employee.employeeDetails == null;
     }
 
     @Override
@@ -76,6 +91,7 @@ public class Employee {
         result = 31 * result + (title != null ? title.hashCode() : 0);
         result = 31 * result + (dateOfBirth != null ? dateOfBirth.hashCode() : 0);
         result = 31 * result + empNumber;
+        result = 31 * result + (employeeDetails != null ? employeeDetails.hashCode() : 0);
         return result;
     }
 }
