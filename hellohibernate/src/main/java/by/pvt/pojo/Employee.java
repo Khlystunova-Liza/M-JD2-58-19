@@ -1,7 +1,9 @@
 package by.pvt.pojo;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 //обьект который генерирует id
@@ -24,8 +26,14 @@ public class Employee {
     @Column
     private int empNumber;
 
+    @ManyToOne
+    private Department department;
+
     @OneToOne(mappedBy = "employee")
     private EmployeeDetails employeeDetails;
+
+    @ManyToMany(mappedBy = "employees")
+    private List<Project> projects;
 
     public EmployeeDetails getEmployeeDetails() {
         return employeeDetails;
@@ -66,6 +74,21 @@ public class Employee {
 
     public void setEmpNumber(int empNumber) {
         this.empNumber = empNumber;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
+
+
+    public void addProject(Project project){
+        //project.addEmployee(this);
+        if(projects ==null)projects = new ArrayList<>();
+        projects.add(project);
     }
 
     @Override
