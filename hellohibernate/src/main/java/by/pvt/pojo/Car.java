@@ -22,8 +22,19 @@ public class Car {
     @OneToOne(mappedBy = "car")
     private Engine engine;
 
+    @ManyToOne
+    private Company company;
+
     public Engine getEngine() {
         return engine;
+    }
+
+    public Company getCompany() {
+        return company;
+    }
+
+    public void setCompany(Company company) {
+        this.company = company;
     }
 
     public void setEngine(Engine engine) {

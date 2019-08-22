@@ -17,7 +17,7 @@ public class ProjectTest {
 
     private Project project;
 
-    private static Project createProject(int index){
+     static Project createProject(int index){
         Project project = new Project();
         project.setProjectName("projectName"+index);
         project.setStartDate(new Date());

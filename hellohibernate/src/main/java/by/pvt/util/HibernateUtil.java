@@ -13,21 +13,34 @@ public class HibernateUtil {
 
     private SessionFactory sessionFactory;
 
-    public static synchronized HibernateUtil getInstance() {
-        if(hibernateUtil==null)
-            hibernateUtil = new HibernateUtil();
-        return hibernateUtil;
-    }
-
-    public Session getSession(){
-        return sessionFactory.openSession();
-    }
+    private SessionFactory testSessionFactory;
 
     private HibernateUtil() {
         sessionFactory =
                 new MetadataSources(
-                         new StandardServiceRegistryBuilder()
+                        new StandardServiceRegistryBuilder()
                                 .configure()
-                                .build()).buildMetadata().buildSessionFactory();
+                                .build()
+                ).buildMetadata().buildSessionFactory();
+
+        testSessionFactory = new MetadataSources(
+                new StandardServiceRegistryBuilder()
+                        .configure("hibernate.cfg.test.xml")
+                        .build()).buildMetadata().buildSessionFactory();
+    }
+
+    public static synchronized HibernateUtil getInstance() {
+        if (hibernateUtil == null) {
+            hibernateUtil = new HibernateUtil();
+        }
+        return hibernateUtil;
+    }
+
+    public Session getSession() {
+        return sessionFactory.openSession();
+    }
+
+    public Session getTestSession() {
+        return testSessionFactory.openSession();
     }
 }
