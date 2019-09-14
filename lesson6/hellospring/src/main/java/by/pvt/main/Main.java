@@ -2,6 +2,7 @@ package by.pvt.main;
 
 import by.pvt.cmd.SendMessageCmd;
 import by.pvt.component.EmailSender;
+import by.pvt.component.EmailSenderHelper;
 import by.pvt.service.MessageService;
 import by.pvt.service.MessageType;
 import org.springframework.context.ApplicationContext;
@@ -23,15 +24,14 @@ public class Main {
         System.out.println(beanDefinitionCount);
 
         String[] beanDefinitionNames = context.getBeanDefinitionNames();
+
         System.out.println("------beans---------");
         for (String beanDefinitionName : beanDefinitionNames) {
-
             System.out.println(beanDefinitionName);
         }
         System.out.println("------beans---------");
 
-
-        MessageService messageService = (MessageService)context.getBean("messageService");
+    /*    MessageService messageService = (MessageService)context.getBean("messageService");
         System.out.println(messageService);
 
         messageService.executeCommand(
@@ -39,6 +39,16 @@ public class Main {
                         "user@gmail.ru",
                         MessageType.INVITATION_MESSAGE,
                         EmailSender.EMAIL_CHANNEL)
-        );
+        );*/
+
+        EmailSenderHelper helper = (EmailSenderHelper)context.getBean("emailSenderHelper");
+        System.out.println(helper);
+        EmailSenderHelper helper1 = (EmailSenderHelper)context.getBean("getInstance");
+        System.out.println(helper1);
+        EmailSenderHelper helper2 = (EmailSenderHelper)context.getBean("getInstance");
+        System.out.println(helper2);
+
+        ((AnnotationConfigApplicationContext) context).close();
+
     }
 }

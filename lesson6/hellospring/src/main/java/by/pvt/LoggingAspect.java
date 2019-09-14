@@ -14,7 +14,7 @@ public class LoggingAspect {
     public void log(JoinPoint joinPoint){
         String name = joinPoint.getSignature().getName();
         Object target = joinPoint.getTarget();
-        System.out.println("LoggingAspect.log() " + name +" " + target);
+        System.out.println("LoggingAspect.log() " + name + " " + target);
 
     }
 }

@@ -2,7 +2,7 @@ package by.pvt.service;
 
 public enum MessageType {
 
-    INVITATION_MESSAGE("inv","s"),
+    INVITATION_MESSAGE("invitation","s"),
     CANCEL_MESSAGE("cancel","s");
 
     MessageType(String body, String subject) {

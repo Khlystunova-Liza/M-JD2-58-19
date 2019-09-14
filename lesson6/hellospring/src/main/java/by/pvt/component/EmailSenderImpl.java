@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 public class EmailSenderImpl implements EmailSender {
 
     public void send(Message message) {
-        System.out.println("Sending message...");
+        System.out.println("Dear %s,Sending message...");
         System.out.println(message);
-        System.out.println("Finished sending message.");
+        System.out.println("Dear %s,Finished sending message.");
     }
 }
