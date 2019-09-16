@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+//сервис организует логику ( проверку чего-нибудь например) и дергает потом хранилище
 @Service
 public class ProductCatalogService {
 
@@ -15,7 +15,8 @@ public class ProductCatalogService {
 
     public List<ProductCatalogItem> getFirstTopTenProducts(){
 
-        return productCatalogRepository.findAll(10);
+        List<ProductCatalogItem> allProducts = productCatalogRepository.findAll(10);
+        return allProducts;
 
     }
 
@@ -29,7 +30,7 @@ public class ProductCatalogService {
 
     //добавляет продукт в хранилище
     public boolean addItem(ProductCatalogItem item){
-        if(item.getPrice()== null || item.getPrice()<=0 || item.getItemName()==null || item.getItemName().isEmpty()) {
+        if(item.getPrice()== null || item.getPrice()<=0 || item.getItemName()== null || item.getItemName().isEmpty()) {
             return false;
         }
         if(item.getId() == null){
@@ -39,7 +40,7 @@ public class ProductCatalogService {
     }
 
     private Long generateProductItemId() {
-        Long naxId = productCatalogRepository.getMaxId();
-        return ++naxId;
+        Long maxId = productCatalogRepository.getMaxId();
+        return ++maxId;
     }
 }

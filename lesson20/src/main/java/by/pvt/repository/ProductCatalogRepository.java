@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
+//репозиторий это и есть dao(create,read,update,delete,find(их много)), репозитарий дергает уже непосредсвенно бд
 @Repository
 public class ProductCatalogRepository {
 
@@ -16,7 +16,7 @@ public class ProductCatalogRepository {
     static {
         for (int i = 1; i <= 100; i++) {
             ProductCatalogItem product =
-                    new ProductCatalogItem((long)i,"name"+i,Math.random()*1000);
+                    new ProductCatalogItem((long)i,"Product Item Name"+i,Math.random()*1000);
             catalog.add(product);
         }
     }
@@ -33,7 +33,8 @@ public class ProductCatalogRepository {
 
     public List<ProductCatalogItem> findByProductName(String str, int i) {
         return catalog.stream()
-                .filter(productCatalogItem -> productCatalogItem.getItemName().contains(str))
+                .filter(productCatalogItem -> productCatalogItem.getItemName()
+                .contains(str))
                 .limit(i)
                 .collect(Collectors.toList());
     }

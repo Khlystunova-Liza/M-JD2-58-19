@@ -1,6 +1,7 @@
 package by.pvt.pojo;
 
 import java.io.Serializable;
+import java.util.Arrays;
 
 public class ProductCatalogItem implements Serializable {
 
@@ -12,12 +13,6 @@ public class ProductCatalogItem implements Serializable {
     public ProductCatalogItem() {
     }
 
-    public ProductCatalogItem(Long id, String itemName, Double price, byte[] productImage) {
-        this.id = id;
-        this.itemName = itemName;
-        this.price = price;
-        this.productImage = productImage;
-    }
     public ProductCatalogItem(Long id, String itemName, Double price) {
         this.id = id;
         this.itemName = itemName;
@@ -56,6 +51,15 @@ public class ProductCatalogItem implements Serializable {
         this.productImage = productImage;
     }
 
+    @Override
+    public String toString() {
+        return "ProductCatalogItem{" +
+                "id=" + id +
+                ", itemName='" + itemName + '\'' +
+                ", price=" + price +
+                ", productImage=" + Arrays.toString(productImage) +
+                '}';
+    }
 }
 
 

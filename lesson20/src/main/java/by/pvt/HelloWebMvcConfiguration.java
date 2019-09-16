@@ -9,8 +9,8 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-//когда приложение будет стартовать,все бины этого класса будут созданы в контексте приложения
-@Configuration
+
+@Configuration//когда приложение будет стартовать,все бины этого класса будут созданы в контексте приложения
 @EnableWebMvc
 @ComponentScan("by.pvt")
 public class HelloWebMvcConfiguration extends WebMvcConfigurerAdapter {
