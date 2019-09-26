@@ -21,7 +21,7 @@ public class AddProductController {
     private static Logger log = Logger.getLogger("AddProductController");
 
     @Autowired
-    ProductCatalogService service;
+    ProductCatalogService productCatalogService;
 
     @GetMapping
     public ModelAndView showAddProductView(){
@@ -40,7 +40,7 @@ public class AddProductController {
     item.setProductImage(file.getBytes());
     saveToFile(file);
 
-        if(!service.addItem(item) || result.hasErrors()){
+        if(!productCatalogService.addItem(item) || result.hasErrors()){
         return "addProductError";
     }
     return "addProductOk";

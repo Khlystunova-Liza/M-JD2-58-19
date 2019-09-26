@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hello-hibernate" />
         <module name="hello-mysql" />
+        <module name="hello-web-mvc" />
         <module name="hellotomcat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hello-hibernate" target="11" />
       <module name="hello-mysql" target="11" />
+      <module name="hello-web-mvc" target="11" />
       <module name="hellotomcat" target="11" />
     </bytecodeTargetLevel>
   </component>

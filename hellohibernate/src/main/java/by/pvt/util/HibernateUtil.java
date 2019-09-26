@@ -26,7 +26,8 @@ public class HibernateUtil {
         testSessionFactory = new MetadataSources(
                 new StandardServiceRegistryBuilder()
                         .configure("hibernate.cfg.test.xml")
-                        .build()).buildMetadata().buildSessionFactory();
+                        .build()).
+                buildMetadata().buildSessionFactory();
     }
 
     public static synchronized HibernateUtil getInstance() {

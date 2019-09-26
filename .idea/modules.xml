@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/M-JD2-58-19.iml" filepath="$PROJECT_DIR$/.idea/M-JD2-58-19.iml" />
       <module fileurl="file://$PROJECT_DIR$/hellohibernate/hello-hibernate.iml" filepath="$PROJECT_DIR$/hellohibernate/hello-hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson5/hello-mysql.iml" filepath="$PROJECT_DIR$/lesson5/hello-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson20/hello-web-mvc.iml" filepath="$PROJECT_DIR$/lesson20/hello-web-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson6/hellotomcat/hellotomcat.iml" filepath="$PROJECT_DIR$/lesson6/hellotomcat/hellotomcat.iml" />
     </modules>
   </component>
